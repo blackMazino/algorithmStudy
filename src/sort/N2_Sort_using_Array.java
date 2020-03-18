@@ -44,10 +44,8 @@ public class N2_Sort_using_Array {
 
 
 	private static void selectionSort() {
-		   for(int i = 1 ; i < arr.length ; i ++)
-		    {
-	            for(int j = i ; j < arr.length ; j ++)
-	            {
+		   for(int i = 1 ; i < arr.length ; i ++){
+	            for(int j = i ; j < arr.length ; j ++){
 	                if(arr[i] > arr[j]){
 	                	int tmp = arr[i];
 	                	arr[i] = arr[j];
@@ -58,17 +56,16 @@ public class N2_Sort_using_Array {
 		}
 	
 	private static void insertSort() {
+		//두번쨰 항목을 비교
 	    for (int i = 2; i < arr.length; i++) {
 	        int key = arr[i];
-	        for (int j = i - 1; j >= 1; j--)
-	        {
+	        for (int j = i - 1; j >= 1; j--){
 	            if (arr[j] > key) {
 	                arr[j + 1] = arr[j];
 	                arr[j] = key;
 	            }else{
 	            	break;
-	            }
-	                
+	            }	                
 	        }
 	    }	
 	}
