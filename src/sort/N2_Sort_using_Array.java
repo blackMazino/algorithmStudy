@@ -72,7 +72,7 @@ public class N2_Sort_using_Array {
 
 	private static void bubbleSort() {
 	    // 0 ~ (i-1)까지 반복
-	    for (int i = N-1; i >1; i--) {	        
+	    for (int i = N; i >1; i--) {	        
 	        for (int j = 1; j < i ; j++){
 	            if (arr[j] > arr[j + 1]){
 	            	int tmp = arr[j];
