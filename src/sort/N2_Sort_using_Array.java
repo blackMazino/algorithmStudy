@@ -16,6 +16,8 @@ https://www.crocus.co.kr/1384
 10
 8 5 2 6 9 3 1 4 0 7 
 */
+
+//1부터 시작!
 public class N2_Sort_using_Array {
 	static int arr [];
 	static int N;
