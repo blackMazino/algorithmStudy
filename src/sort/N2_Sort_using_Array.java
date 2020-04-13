@@ -22,7 +22,6 @@ public class N2_Sort_using_Array {
 	static int arr [];
 	static int N;
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		N = Integer.parseInt(br.readLine());
