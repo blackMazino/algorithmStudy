@@ -85,7 +85,7 @@ public class NlogN_Sort_using_Array {
 			quickSort(q+1, right); // (피벗 바로 뒤 ~ right) 뒤쪽 부분 리스트 정렬 -정복(Conquer)
 	    }	
 	}
-	
+	//left와 right는 값이 변하지 않는다
 	private static int partition( int left, int right) {
 	    int pivot = arr[left]; // 피벗의 위치는 가장 왼쪽에서 시작
 	    int low = left + 1;

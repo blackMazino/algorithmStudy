@@ -79,6 +79,7 @@ public class N2_Sort_using_Array {
 	    }	
 	}
 
+	//오른차순 기준으로 큰값 우선 정렬된다. 큰값 몇개만 필요하다면 Bubble Sort
 	private static void bubbleSort() {
 	    // 0 ~ (i-1)까지 반복
 	    for (int i = N; i >1; i--) {	        
