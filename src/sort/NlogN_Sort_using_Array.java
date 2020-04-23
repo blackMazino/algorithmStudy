@@ -113,17 +113,17 @@ public class NlogN_Sort_using_Array {
 	
 	
 	private static void heapSort() {
-		minheap(N);//오름차순
-//		maxheap(N);//내림차순
+		minheapfi(N);//오름차순
+//		maxheapfi(N);//내림차순
 		for(int i=N-1;i>0;i--){
-			swap(0, i);
-			minheap(i);
-//			maxheap(i);
+			swap(0, i);//heap결과 최대(최소) 값을 가장 우측으로 보내버린다.
+			minheapfi(i);
+//			maxheapfi(i);
 		}		
 	}
 
 
-	private static void minheap(int n) {
+	private static void minheapfi(int n) {
 		for(int i=1;i<n;i++){//두번째 부터 마지막까지 
 			int child = i;
 			while(child>0){
@@ -136,7 +136,7 @@ public class NlogN_Sort_using_Array {
 		}
 	}
 	
-	private static void maxheap(int n) {
+	private static void maxheapfi(int n) {
 		for(int i=1;i<n;i++){//두번째 부터 마지막까지 
 			int child = i;
 			while(child>0){
