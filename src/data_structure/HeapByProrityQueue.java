@@ -3,7 +3,7 @@ package data_structure;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class heap {
+public class HeapByProrityQueue {
 	static PriorityQueue minHeap, maxHeap;
 	public static void main(String[] args) {
 		minHeap = new PriorityQueue<>();
